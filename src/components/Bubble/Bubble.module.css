@@ -1,0 +1,50 @@
+﻿.bubble_container{
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    backdrop-filter: blur(120px);
+    margin-left: 12px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+}
+.bubble_text{
+    color: rgb(0, 0, 0, 0.55);
+}
+#about_me_bubble{
+    position: absolute;
+    transform: translate(0, -135px);
+    width: 115px;
+    height: 115px;
+}
+#technical_skills_bubble{
+    position: absolute;
+    transform: translate(0, -200px);
+    width: 160px;
+    height: 160px;
+}
+#soft_skills_bubble{
+    position: absolute;
+    justify-self: center;
+    transform: translate(0, -135px);
+    width: 120px;
+    height: 120px;
+}
+#education_and_training_bubble{
+    position: absolute;
+    justify-self: center;
+    transform: translate(0, -240px);
+    width: 215px;
+    height: 215px;
+}
+#work_experience_bubble{
+    position: absolute;
+    justify-self: center;
+    transform: translate(0, -185px);
+    width: 165px;
+    height: 165px;
+}
+
+/* TODO */
+p{
+    /*font-weight: bold;*/
+}

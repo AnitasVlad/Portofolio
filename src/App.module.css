@@ -1,0 +1,12 @@
+﻿body{
+    background-image: url("/src/images/GradientMushVertical1.jpg");
+    width: 100%;
+    /*background-size: 300px;*/
+    /*filter: blur(100px);*/
+}
+p{
+    font-family: Abyssinica SIL, serif;
+}
+.gradientBackgroundImg{
+    width: auto;
+}
